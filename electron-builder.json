@@ -1,0 +1,23 @@
+{
+  "appId": "com.polska.tv",
+  "productName": "Polska TV Test",
+  "files": [
+    "dist/public/**/*",
+    "electron/**/*",
+    "attached_assets/generated_images/**/*"
+  ],
+  "directories": {
+    "output": "dist_electron"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "attached_assets/generated_images/modern_television_app_icon.png"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "Polska TV Test"
+  }
+}
